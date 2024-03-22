@@ -1,0 +1,39 @@
+/* App.css */
+.calculadora {
+  width: 300px;
+  margin: 20px auto;
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.calculadora h2 {
+  margin-top: 0;
+}
+
+.tela {
+  margin-bottom: 10px;
+}
+
+.botoes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.botoes button {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.historico {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.historico h3 {
+  margin-top: 0;
+}
